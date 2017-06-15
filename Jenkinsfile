@@ -14,7 +14,7 @@ pipeline {
     }
     post{
         always{
-             echo("Pipeline:" + ${currentBuild.fullDisplayName})
+             echo("Pipeline is correct"})
         }
     }
         
