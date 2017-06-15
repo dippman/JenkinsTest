@@ -14,7 +14,7 @@ pipeline {
     }
     post{
         always{
-             echo("Pipeline is correct"})
+             echo("Pipeline is correct")
         }
     }
         
