@@ -6,12 +6,17 @@ pipeline {
                 bat 'set'
             }
         }
-                  stage('test'){
-       steps {
-             input "Does the staging environment look ok?"
-             }
+         stage('test'){
+            steps {
+                 input "Does the staging environment look ok?"
                   }
-    }
+            }
+         stage('Depoly'){
+            steps {
+                  
+                  }
+            }
+         }
     post{
         always{
              echo("Pipeline is correct")
