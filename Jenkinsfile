@@ -11,7 +11,7 @@ pipeline {
                  input "Does the staging environment look ok?"
                   }
             }
-         stage('Depoly'){
+         stage('Deploy'){
             steps {
                   
                   }
